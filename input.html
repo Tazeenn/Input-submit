@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input and Submit</title>
+</head>
+<style>
+    .container{
+        border: solid 2px black;
+        height: 220px;
+        width: 300px;
+        padding: 20px 20px 20px 20px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 40px black;
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+    table{
+        margin-left: 100px;
+    }
+    input{
+       height: 20px;
+       width: 250px;  
+       align-items: center;
+    }
+</style>
+<body>
+    <div class="container">
+        <form action="">
+            <label for="fnm">First Name</label>
+            <input type="text" name="fname" id="fnm">
+            <br><br>
+            <label for="lnm">Last Name</label>
+            <input type="text" name="lname" id="lnm">
+            <br><br>
+            <label for="phno">Phone number</label>
+            <input type="number" name="phoneno" id="phno">
+            <br><br>
+    
+            <input type="submit" onclick="input()" style="height: 30px;">
+        </form>
+    </div>
+    <br><br><br><br><br>
+
+    <table border="solid 2px black">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Phone number</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <script src="./input.js"></script>
+
+</body>
+</html>
